@@ -19,10 +19,27 @@
 "SkipByLongTapDesc" = "Long pressing the rewind buttons skips to the next/previous video";
 "LoopButton" = "Loop Button";
 "LoopButtonDesc" = "Adds a loop button to the overlay";
+"HorFlipButton" = "Horizontal flip";
+"HorFlipButtonDesc" = "Adds a horizontal flip button to the overlay";
+"VerFlipButton" = "Vertical flip";
+"VerFlipButtonDesc" = "Adds a vertical flip to the overlay";
 "SkipButtons" = "Skip buttons";
 "SkipButtonsDesc" = "Adds skip to next and previous buttons to the overlay";
 "HideRewindButtons" = "Hide Rewind Buttons";
 "HideRewindButtonsDesc" = "Removes rewind and fast forward buttons from the overlay";
+"MutePlayerOnly" = "Mute Player Only";
+"MutePlayerOnlyDesc" = "Mutes the player without affecting the system volume when using the in-player volume button";
+
+"OverlayLock" = "Overlay Lock";
+"OverlayLockDesc" = "Adds an overlay lock button to the playback settings menu";
+"AllowLongPresses" = "Allow Long Press Gestures";
+"AllowLongPressesDesc" = "Allows long press gestures over the locked overlay. For example, to change playback speed";
+"AllowDoubleTaps" = "Allow Double Tap Gestures";
+"AllowDoubleTapsDesc" = "Allows double tap gestures for fast forward, rewind, or play/pause playback";
+"AllowTwoFingerTaps" = "Allow Two-Finger Tap Gestures";
+"AllowTwoFingerTapsDesc" = "Allows two-finger tap gestures to play or pause playback";
+"AllowPanGestures" = "Allow Pan Gestures";
+"AllowPanGesturesDesc" = "Allows pan gestures for seeking and adjusting brightness/volume";
 
 "ShowStatusBar" = "Show Status Bar";
 "ShowStatusBarDesc" = "Shows status bar with connection, time and battery level in the player";
@@ -36,6 +53,8 @@
 "SpeedByLongTapDesc" = "Pressing and holding the overlay speeds up playback rate";
 "AdjustSpeedGesture" = "Adjust Playback Speed";
 "AdjustSpeedGestureDesc" = "Allows adjusting the playback speed with up/down movements during a long press";
+"CompactToast" = "Compact Toast";
+"CompactToastDesc" = "Displays a compact-style toast for playback rate";
 
 "FlexibleTimer" = "Flexible Timer";
 "FlexibleTimerDesc" = "Adds a flexible timer submenu to the playback settings menu to provide the ability to toggle between displaying the remaining playback time, total duration, and playback end time";
@@ -66,6 +85,8 @@
 "StartupPageHeader" = "スタートアップページ";
 
 "UpdateHeader" = "Infuse Plus Update";
+"AutoCleanTrash" = "Auto clean trash";
+"AutoCleanTrashDesc" = "Automatically cleans the Infuse trash folder on startup";
 "NotifyUpdates" = "更新を通知する";
 "NotifyUpdatesDesc" = "Tweakの新しいバージョンが利用可能な場合にアラートを表示します";
 "UpdateLocalizations" = "Update Localizations";
@@ -110,10 +131,14 @@
 "Japanese" = "日本語ローカライズ";
 "Spanish" = "スペイン語ローカライズ";
 
+"LockOverlay" = "Lock Overlay";
+"TapToUnlock" = "Tap to unlock";
+
 "Photos" = "Photos";
 "Imported" = "Imported";
 "MediaNotFound" = "Media not found";
 
+"LinkImport" = "Link Import";
 "ImportLinksFromFile" = "Import from file";
 "ExportLinksToFile" = "Export to file";
 "RemoveLinks" = "Remove all links";
@@ -124,6 +149,13 @@
 "InvalidLink" = "Invalid link";
 "InvalidFile" = "Invalid file";
 "Done" = "Done";
+
+"FileImport" = "File import";
+"ImportLocalFiles" = "Import local files";
+"LocalImport" = "Folder Import";
+"LocalImportMessage" = "As folder selection is not supported on sideload, this workaround allows to select multiple video files at once for bulk import";
+"FolderName" = "Set folder name";
+"ImportFromPhotos" = "Import from Photos";
 
 "Welcome.Premium" = "Premium features";
 "Welcome.PremiumDesc" = "Get access to all exclusive app features";
